@@ -1,0 +1,110 @@
+ 1  git version
+    2  git
+    3  sudo yum install git -y
+    4  sudo -
+    5  mkdir git_repo
+    6  cd git_repo/
+    7  ls -lrt
+    8  git init
+    9  ls -la
+   10  echo hello> index.html
+   11  ls -lrt
+   12  git status -s
+   13  git add index.html
+   14  git status -s
+   15  git add.
+   16  git add .
+   17  git status -s
+   18  echo hi> abc
+   19  git status -s
+   20  git add abc
+   21  git status
+   22  git status -s
+   23  git status
+   24  git add .
+   25  git status -s
+   26  rm abc
+   27  git status -s
+   28  git checkout abc
+   29  ls
+   30  rm -rf abc
+   31  git checkout abc
+   32  ls
+   33  git status -s
+   34  git add .
+   35  git status -s
+   36  rm abc
+   37  git status -s
+   38  git add .
+   39  git status -s
+   40  git add -A
+   41  git status -s
+   42  git commit -m "function add"
+   43  git config --global user.email rawatashok88@gmail.com
+   44  git config --global user.name ashok
+   45  cat ~/.gitconfig
+   46  git commit -m "function add"
+   47  git log
+   48  git branch
+   49  git status -s
+   50  git log 7e172375211580294f60c599793f33d199e8a446
+   51  git show 7e172375211580294f60c599793f33d199e8a446
+   52  ls -lrt
+   53  echo hi >>index.html
+   54  git status -s
+   55  git add .
+   56  git commit -m :function modify"
+   57  git commit -m "function modify"
+   58  git log
+   59  git show 37c38442e4620781a7db956861ec2af5767b3d19
+   60  git log
+   61  ll
+   62  git remote add origin https://github.com/ashokr112/muskan_git.git
+   63  cat .git/config
+   64  git push origin master
+   65  ssh-keygen
+   66  ~/.ssh/
+   67  ls ~/.ssh/
+   68  cat id_rsa.pub
+   69  ls -lrt
+   70  ls -la
+   71  ls ~/.ssh/
+   72  cat id_rsa.pub
+   73  ls -a
+   74  ls ~/.ssh/
+   75  cat id_rsa.pub
+   76  less id_rsa.pub
+   77  cd ..
+   78  cd
+   79  ls -la
+   80  cd .ssh/
+   81  ls -lrt
+   82  cat id_rsa.pub
+   83  cd
+   84  ls -l
+   85  cd git_repo/
+   86  ls -lrt
+   87  ls -lrta
+   88  vi .git/config
+   89  cd
+   90  ls -a
+   91  cd .ssh/
+   92  ls -lta
+   93  cat id_rsa.pub
+   94  cd
+   95  ls
+   96  cd git_repo/
+   97  ls -lrt
+   98  git push origin master
+   99  user add muskan
+  100  useradd muskan
+  101  ls -la
+  102  cd .ssh/
+  103  ls -lrt
+  104  cat id_rsa
+  105  ls
+  106  cd git_repo/
+  107  ls -lrt
+  108  git pull origin master
+  109  ls
+  110  history
